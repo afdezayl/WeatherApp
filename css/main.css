@@ -1,0 +1,27 @@
+body {
+    background-color: #EEE;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: rgb(86, 110, 248);
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:active,
+.btn:hover {
+    background-color: orange;
+}
+
+.main_panel {
+    background-color: #FCFCFC;    
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px;
+    width: 80%;
+    margin: auto;
+    padding: 1rem 2rem;
+}

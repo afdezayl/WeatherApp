@@ -4,15 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Weather APP</title>
+    
     <script src="https://unpkg.com/rxjs/bundles/rxjs.umd.min.js"></script>
     <script src="js/main.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+    <h1>Weather Sample App</h1>
     <div>
-        <button id="get_location">Get Location</button>
+        <button class="btn btn_location" id="get_location">Get Location</button>
     </div>
-    <div id="main_panel"></div>
+    <div class="main_panel" id="weather_panel" style="display: none;">
+        <h2 id="weather_city"></h2>
+        <div>
+            <button class="btn btn_temperature" id="toggle">Swap</button>
+            <span id="celsius"></span>
+            <span id="fahrenheit" style="display: none;"></span>
+        </div>
+        <figure id="icon">
+            <img src="" alt="" />
+            <figcaption></figcaption>
+        </figure>
+    </div>
 </body>
 
 </html>
